@@ -46,7 +46,6 @@ public class User {
 	private String password;
 	
 	@Transient 
-	@NotBlank
 	private String confirmPassword;
 	
 	@ManyToMany(fetch = FetchType.LAZY)
